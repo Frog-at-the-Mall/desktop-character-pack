@@ -11,10 +11,12 @@ root.title("mattFrye Pxlart")
 # Set geometry (widthxheight)
 root.geometry('350x200')
 
-img = tk.PhotoImage(file='Sprite-0001.gif', format= "gif")
+img = tk.PhotoImage(file='Sprite-0001.gif', format= "gif -index 2")
 
 label = Label(root, image = img).grid(row = 0, column = 2,
        columnspan = 10, rowspan = 10, padx = 5, pady = 5)
+
+
 
 
 def clicked():
