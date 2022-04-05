@@ -2,6 +2,8 @@
 # Import Module
 from tkinter import * 
 import tkinter as tk
+
+from PyQt5 import *
  
 # create root window
 root = tk.Tk()
