@@ -13,10 +13,11 @@ root.geometry('640x360')
 
 img1 = tk.PhotoImage(file='Sprite-0001.gif')
 
+
 img2 = tk.PhotoImage(file='Sprite-0002.png')
 
 label = Label(root, image = img1)
-label.grid(column=2,row=0)
+label.grid(row=2)
    
 
 
@@ -32,12 +33,14 @@ def clicked2():
     
     
  
-btn1 = Button(root, text = "Eyeball " ,fg = "purple",command=clicked1)
+btn1 = Button(root, text = "Eyeball " ,fg = "purple",compound=LEFT,command=clicked1)
 btn2 = Button(root, text = "Landscape " ,fg = "green",command=clicked2)
 
 
-btn1.grid(column=1,row=0)
-btn2.grid(column=1,row=1)
+btn1.grid(column=1,row=1)
+btn2.grid(column=2,row=1)
+
+
 
 
 
