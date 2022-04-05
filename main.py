@@ -24,11 +24,11 @@ label.grid(column=2,row=0)
 
 def clicked1():
     
-    label = Label(root,image = img1)
+    label.config(image=img1)
 
 def clicked2():
     
-    label = Label(root, image = img2)
+    label.config(image=img2)
     
     
  
